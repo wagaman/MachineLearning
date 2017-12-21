@@ -1,0 +1,3 @@
+[ERROR] [2017-11-28 14:47:10 cuiyufei ./run.sh 创建表格DWA_V_M_CUS_CB_USER_INFO_201708的sql文件失败！]
+[ERROR] [2017-11-28 14:58:08 cuiyufei ./run.sh hive创建表格DWA_V_M_CUS_CB_USER_INFO_201708失败！]
+[ERROR] [2017-11-28 15:03:38 cuiyufei ./run.sh 创建表格log201708的sql文件失败！]

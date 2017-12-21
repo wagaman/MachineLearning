@@ -1,0 +1,58 @@
+[INFO] 2017-12-15 14:35:28 cuiyufei ./hdfs_1215.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 14:35:29 cuiyufei ./hdfs_1215.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 14:36:14 cuiyufei ./hdfs_1215.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 14:36:14 cuiyufei ./hdfs_1215.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 14:38:47 cuiyufei ./hdfs_1215.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 14:38:48 cuiyufei ./hdfs_1215.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 14:38:48 cuiyufei ./hdfs_1215.sh 生成待更新列表...
+[INFO] 2017-12-15 14:38:48 cuiyufei ./hdfs_1215.sh 待更新列表生成完成！
+[INFO] 2017-12-15 14:39:36 cuiyufei ./hdfs_1215.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 14:39:36 cuiyufei ./hdfs_1215.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 14:39:36 cuiyufei ./hdfs_1215.sh 生成待更新列表...
+[INFO] 2017-12-15 14:39:36 cuiyufei ./hdfs_1215.sh 待更新列表生成完成！
+[INFO] 2017-12-15 14:41:46 cuiyufei ./hdfs_1215.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 14:41:46 cuiyufei ./hdfs_1215.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 14:41:46 cuiyufei ./hdfs_1215.sh 生成待更新列表...
+[INFO] 2017-12-15 14:41:46 cuiyufei ./hdfs_1215.sh 待更新列表生成完成！
+[INFO] 2017-12-15 14:41:46 cuiyufei ./hdfs_1215.sh get数据list.txt
+[INFO] 2017-12-15 14:41:49 cuiyufei ./hdfs_1215.sh list.txt下载完成！
+[INFO] 2017-12-15 14:41:49 cuiyufei ./hdfs_1215.sh get数据sftp.sh
+[INFO] 2017-12-15 14:41:49 cuiyufei ./hdfs_1215.sh sftp.sh下载完成！
+[INFO] 2017-12-15 14:41:50 cuiyufei ./hdfs_1215.sh hdfs put list.txt...
+[INFO] 2017-12-15 14:41:53 cuiyufei ./hdfs_1215.sh hdfs put sftp.sh...
+[INFO] 2017-12-15 14:41:57 cuiyufei ./hdfs_1215.sh 
+*****************************************************************
+*                                                               *
+*               信息化部数据中心数据更新                        *
+*****************************************************************
+		#更新时间:2017年 12月 15日 星期五 14:41:46 CST
+		#数据数量:2
+		#数据大小:1.5M
+		#用    时:11 s
+		#HDFS目录:/user/cuiyufei/tmp
+		#日志文件:/home/cuiyufei/sftp/log
+**************************数据更新完成！*************************
+[INFO] 2017-12-15 14:42:47 cuiyufei ./hdfs_1215.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 14:42:47 cuiyufei ./hdfs_1215.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 14:42:47 cuiyufei ./hdfs_1215.sh 生成待更新列表...
+[INFO] 2017-12-15 14:42:47 cuiyufei ./hdfs_1215.sh 待更新列表生成完成！
+[INFO] 2017-12-15 14:42:47 cuiyufei ./hdfs_1215.sh 程序执行用时:0 s。没有数据更新！
+[INFO] 2017-12-15 14:50:01 cuiyufei ./hdfs_1215.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 14:50:02 cuiyufei ./hdfs_1215.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 14:50:02 cuiyufei ./hdfs_1215.sh 生成待更新列表...
+[INFO] 2017-12-15 14:50:02 cuiyufei ./hdfs_1215.sh 待更新列表生成完成！
+[INFO] 2017-12-15 14:50:02 cuiyufei ./hdfs_1215.sh get数据sftp.sh
+[INFO] 2017-12-15 14:50:02 cuiyufei ./hdfs_1215.sh sftp.sh下载完成！
+[INFO] 2017-12-15 14:50:02 cuiyufei ./hdfs_1215.sh hdfs put sftp.sh...
+[INFO] 2017-12-15 14:50:06 cuiyufei ./hdfs_1215.sh 
+*****************************************************************
+*                                                               *
+*               信息化部数据中心数据更新                        *
+*****************************************************************
+		#更新时间:2017年 12月 15日 星期五 14:50:01 CST
+		#数据数量:1
+		#数据大小:8.0K
+		#用    时:5 s
+		#HDFS目录:/user/cuiyufei/tmp
+		#日志文件:/home/cuiyufei/sftp/log
+**************************数据更新完成！*************************

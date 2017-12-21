@@ -1,0 +1,9 @@
+[INFO] 2017-12-05 17:24:10 cuiyufei ./load_data.sh 开始创建表格...
+[INFO] 2017-12-05 17:24:12 cuiyufei ./load_data.sh 创建表格DWD_M_ACC_CB_ACCT_DEPOSIT_201708的sql文件成功！
+[INFO] 2017-12-05 17:24:34 cuiyufei ./load_data.sh hive创建表格DWD_M_ACC_CB_ACCT_DEPOSIT_201708成功！
+[INFO] 2017-12-05 17:24:56 cuiyufei ./load_data.sh hive导入数据/user/cuiyufei/hive/CPHQ-20171114-153943_DWD_M_ACC_CB_ACCT_DEPOSIT_070_01_0000001.070=>DWD_M_ACC_CB_ACCT_DEPOSIT_201708成功！
+[INFO] 2017-12-05 17:24:56 cuiyufei ./load_data.sh 开始创建表格...
+[INFO] 2017-12-05 17:24:57 cuiyufei ./load_data.sh 创建表格DWD_M_ACC_CB_PAYLOG_201708的sql文件成功！
+[INFO] 2017-12-05 17:25:18 cuiyufei ./load_data.sh hive创建表格DWD_M_ACC_CB_PAYLOG_201708成功！
+[INFO] 2017-12-05 17:25:40 cuiyufei ./load_data.sh hive导入数据/user/cuiyufei/hive/CPHQ-20171114-153943_DWD_M_ACC_CB_PAYLOG_070_01_0000001.070=>DWD_M_ACC_CB_PAYLOG_201708成功！
+[INFO] 2017-12-05 17:25:40 cuiyufei ./load_data.sh 程序执行成功!用时:97 seconds

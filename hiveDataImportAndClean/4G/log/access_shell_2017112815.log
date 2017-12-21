@@ -1,0 +1,25 @@
+[INFO] 2017-11-28 15:07:22 cuiyufei ./run.sh 对语音和流量表进行过滤，过滤掉month_id和开始时间不对应的数据
+[INFO] 2017-11-28 15:08:55 cuiyufei ./run.sh ########################user telephone info#####################################
+[INFO] 2017-11-28 15:08:55 cuiyufei ./run.sh 移网用户自然月内的漫游天数
+[INFO] 2017-11-28 15:09:27 cuiyufei ./run.sh 用户当月通话次数
+[INFO] 2017-11-28 15:09:58 cuiyufei ./run.sh 用户当月主叫通话次数
+[INFO] 2017-11-28 15:10:30 cuiyufei ./run.sh 用户当月被叫对方号码个数oppose_number
+[INFO] 2017-11-28 15:11:32 cuiyufei ./run.sh 当月累计-使用天数（含语音、流量、短信)
+[INFO] 2017-11-28 15:15:00 cuiyufei ./run.sh 当月累计-未产生话单天数
+[INFO] 2017-11-28 15:16:01 cuiyufei ./run.sh 创建user_id，cust_id， month_id
+[INFO] 2017-11-28 15:17:16 cuiyufei ./run.sh 创建all_merge_with_cust_sex
+[INFO] 2017-11-28 15:17:59 cuiyufei ./run.sh #################################base_info########################################
+[INFO] 2017-11-28 15:17:59 cuiyufei ./run.sh 转换user_id=>dwa_v_m_cus_nm_charge_010
+[INFO] 2017-11-28 15:18:30 cuiyufei ./run.sh 转换user_id=>dwa_v_m_cus_nm_sing_flux_010
+[INFO] 2017-11-28 15:19:01 cuiyufei ./run.sh base_info
+[INFO] 2017-11-28 15:19:45 cuiyufei ./run.sh ##############################final_merge##########################################
+[INFO] 2017-11-28 15:20:28 cuiyufei ./run.sh 将all_merge表格导出到本地
+[INFO] 2017-11-28 15:20:58 cuiyufei ./run.sh 程序执行成功!用时:823 seconds
+[INFO] 2017-11-28 15:22:15 cuiyufei ./run.sh 将all_merge表格导出到本地
+[INFO] 2017-11-28 15:22:44 cuiyufei ./run.sh 程序执行成功!用时:32 seconds
+[INFO] 2017-11-28 15:24:13 cuiyufei ./run.sh 将all_merge表格导出到本地
+[INFO] 2017-11-28 15:24:22 cuiyufei ./run.sh 程序执行成功!用时:12 seconds
+[INFO] 2017-11-28 15:25:06 cuiyufei ./run.sh 将all_merge表格导出到本地
+[INFO] 2017-11-28 15:25:35 cuiyufei ./run.sh 程序执行成功!用时:33 seconds
+[INFO] 2017-11-28 15:26:08 cuiyufei ./del_tmp_4g.sh 删除tmp表
+[INFO] 2017-11-28 15:33:08 cuiyufei ./del_tmp_4g.sh 程序执行成功!用时:420 seconds

@@ -1,0 +1,24 @@
+[INFO] 2017-12-06 12:49:27 cuiyufei ./4g_clean.sh 对语音和流量表进行过滤，过滤掉month_id和开始时间不对应的数据
+[INFO] 2017-12-06 12:49:43 cuiyufei ./4g_clean.sh 对语音和流量表进行过滤，过滤掉month_id和开始时间不对应的数据
+[INFO] 2017-12-06 12:51:28 cuiyufei ./4g_clean.sh ########################user telephone info#####################################
+[INFO] 2017-12-06 12:51:28 cuiyufei ./4g_clean.sh 移网用户自然月内的漫游天数
+[INFO] 2017-12-06 12:52:03 cuiyufei ./4g_clean.sh 用户当月通话次数
+[INFO] 2017-12-06 12:52:38 cuiyufei ./4g_clean.sh 用户当月主叫通话次数
+[INFO] 2017-12-06 12:53:12 cuiyufei ./4g_clean.sh 用户当月被叫对方号码个数oppose_number
+[INFO] 2017-12-06 12:54:21 cuiyufei ./4g_clean.sh 当月累计-使用天数（含语音、流量、短信)
+[INFO] 2017-12-06 12:58:14 cuiyufei ./4g_clean.sh 当月累计-未产生话单天数
+[INFO] 2017-12-06 12:59:23 cuiyufei ./4g_clean.sh 创建user_id，cust_id， month_id
+[INFO] 2017-12-06 13:00:45 cuiyufei ./4g_clean.sh 创建all_merge_with_cust_sex
+[INFO] 2017-12-06 13:01:33 cuiyufei ./4g_clean.sh #################################base_info########################################
+[INFO] 2017-12-06 13:01:33 cuiyufei ./4g_clean.sh 转换user_id=>dwa_v_m_cus_nm_charge_010
+[INFO] 2017-12-06 13:02:07 cuiyufei ./4g_clean.sh 转换user_id=>dwa_v_m_cus_nm_sing_flux_010
+[INFO] 2017-12-06 13:02:41 cuiyufei ./4g_clean.sh base_info
+[INFO] 2017-12-06 13:03:28 cuiyufei ./4g_clean.sh ==================start=====================
+[INFO] 2017-12-06 13:03:28 cuiyufei ./4g_clean.sh yue and fee
+[INFO] 2017-12-06 13:05:59 cuiyufei ./4g_clean.sh ==================end=====================
+[INFO] 2017-12-06 13:05:59 cuiyufei ./4g_clean.sh ##############################final_merge##########################################
+[INFO] 2017-12-06 13:06:47 cuiyufei ./4g_clean.sh ==================start=====================
+[INFO] 2017-12-06 13:07:33 cuiyufei ./4g_clean.sh ==================end=====================
+[INFO] 2017-12-06 13:07:33 cuiyufei ./4g_clean.sh 将all_merge表格导出到本地
+[INFO] 2017-12-06 13:08:06 cuiyufei ./4g_clean.sh 将all_merge表格导出到本地
+[INFO] 2017-12-06 13:08:38 cuiyufei ./4g_clean.sh 程序执行成功!用时:1135 seconds

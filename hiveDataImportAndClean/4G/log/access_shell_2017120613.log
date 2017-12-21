@@ -1,0 +1,28 @@
+[INFO] 2017-12-06 13:16:44 cuiyufei ./4g_clean.sh ==================start=====================
+[INFO] 2017-12-06 13:16:44 cuiyufei ./4g_clean.sh yue and fee
+[INFO] 2017-12-06 13:19:12 cuiyufei ./4g_clean.sh ==================end=====================
+[INFO] 2017-12-06 13:19:12 cuiyufei ./4g_clean.sh ##############################final_merge##########################################
+[INFO] 2017-12-06 13:19:59 cuiyufei ./4g_clean.sh ==================start=====================
+[INFO] 2017-12-06 13:20:44 cuiyufei ./4g_clean.sh ==================end=====================
+[INFO] 2017-12-06 13:20:44 cuiyufei ./4g_clean.sh 将all_merge表格导出到本地
+[INFO] 2017-12-06 13:21:16 cuiyufei ./4g_clean.sh 将all_merge表格导出到本地
+[INFO] 2017-12-06 13:21:48 cuiyufei ./4g_clean.sh 程序执行成功!用时:304 seconds
+[INFO] 2017-12-06 13:31:54 cuiyufei ./load_data.sh the diretory of /user/cuiyufei/hive  not exists!
+[INFO] 2017-12-06 13:32:08 cuiyufei ./load_data.sh 开始创建表格...
+[INFO] 2017-12-06 13:32:10 cuiyufei ./load_data.sh 创建表格DWD_M_ACC_CB_ACCT_DEPOSIT_201708的sql文件成功！
+[INFO] 2017-12-06 13:32:32 cuiyufei ./load_data.sh hive创建表格DWD_M_ACC_CB_ACCT_DEPOSIT_201708成功！
+[INFO] 2017-12-06 13:32:54 cuiyufei ./load_data.sh hive导入数据/user/cuiyufei/hive/CPHQ-20171114-153943_DWD_M_ACC_CB_ACCT_DEPOSIT_070_01_0000001.070=>DWD_M_ACC_CB_ACCT_DEPOSIT_201708成功！
+[INFO] 2017-12-06 13:32:54 cuiyufei ./load_data.sh 开始创建表格...
+[INFO] 2017-12-06 13:32:55 cuiyufei ./load_data.sh 创建表格DWD_M_ACC_CB_PAYLOG_201708的sql文件成功！
+[INFO] 2017-12-06 13:33:17 cuiyufei ./load_data.sh hive创建表格DWD_M_ACC_CB_PAYLOG_201708成功！
+[INFO] 2017-12-06 13:33:39 cuiyufei ./load_data.sh hive导入数据/user/cuiyufei/hive/CPHQ-20171114-153943_DWD_M_ACC_CB_PAYLOG_070_01_0000001.070=>DWD_M_ACC_CB_PAYLOG_201708成功！
+[INFO] 2017-12-06 13:33:39 cuiyufei ./load_data.sh 程序执行成功!用时:98 seconds
+[INFO] 2017-12-06 13:33:51 cuiyufei ./4g_clean.sh ==================start=====================
+[INFO] 2017-12-06 13:33:51 cuiyufei ./4g_clean.sh yue and fee
+[INFO] 2017-12-06 13:36:23 cuiyufei ./4g_clean.sh ==================end=====================
+[INFO] 2017-12-06 13:36:23 cuiyufei ./4g_clean.sh ##############################final_merge##########################################
+[INFO] 2017-12-06 13:37:12 cuiyufei ./4g_clean.sh ==================start=====================
+[INFO] 2017-12-06 13:38:00 cuiyufei ./4g_clean.sh ==================end=====================
+[INFO] 2017-12-06 13:38:00 cuiyufei ./4g_clean.sh 将all_merge表格导出到本地
+[INFO] 2017-12-06 13:38:32 cuiyufei ./4g_clean.sh 将all_merge表格导出到本地
+[INFO] 2017-12-06 13:39:04 cuiyufei ./4g_clean.sh 程序执行成功!用时:313 seconds

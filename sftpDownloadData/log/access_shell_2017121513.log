@@ -1,0 +1,62 @@
+[INFO] 2017-12-15 13:00:01 cuiyufei ./hdfs.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 13:00:06 cuiyufei ./hdfs.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 13:00:06 cuiyufei ./hdfs.sh 生成待更新列表...
+[INFO] 2017-12-15 13:00:07 cuiyufei ./hdfs.sh 待更新列表生成完成！
+[INFO] 2017-12-15 13:00:07 cuiyufei ./hdfs.sh get数据sftp.sh
+[INFO] 2017-12-15 13:00:12 cuiyufei ./hdfs.sh sftp.sh下载完成！
+[INFO] 2017-12-15 13:00:12 cuiyufei ./hdfs.sh hdfs put sftp.sh...
+[INFO] 2017-12-15 13:00:16 cuiyufei ./hdfs.sh 
+*****************************************************************
+*                                                               *
+*               信息化部数据中心数据更新                        *
+*****************************************************************
+		#更新时间:2017年 12月 15日 星期五 13:00:01 CST
+		#数据数量:1
+		#数据大小:8.0K
+		#用    时:15 s
+		#HDFS目录:/user/cuiyufei/
+		#日志文件:/home/cuiyufei/sftp/log
+**************************数据更新完成！*************************
+[INFO] 2017-12-15 13:30:01 cuiyufei ./hdfs.sh 开始获取sftp文件列表...
+[INFO] 2017-12-15 13:30:01 cuiyufei ./hdfs.sh sftp文件列表获取完成！
+[INFO] 2017-12-15 13:30:01 cuiyufei ./hdfs.sh 生成待更新列表...
+[INFO] 2017-12-15 13:30:01 cuiyufei ./hdfs.sh 待更新列表生成完成！
+[INFO] 2017-12-15 13:30:01 cuiyufei ./hdfs.sh get数据C01001MALABELUSR2017110000000.097
+[INFO] 2017-12-15 13:30:02 cuiyufei ./hdfs.sh C01001MALABELUSR2017110000000.097下载完成！
+[INFO] 2017-12-15 13:30:02 cuiyufei ./hdfs.sh get数据C01001MALABELUSR2017110000000.097MD5
+[INFO] 2017-12-15 13:30:02 cuiyufei ./hdfs.sh C01001MALABELUSR2017110000000.097MD5下载完成！
+[INFO] 2017-12-15 13:30:02 cuiyufei ./hdfs.sh get数据C01001MALABELUSR2017120000000.097
+[INFO] 2017-12-15 13:30:03 cuiyufei ./hdfs.sh C01001MALABELUSR2017120000000.097下载完成！
+[INFO] 2017-12-15 13:30:03 cuiyufei ./hdfs.sh get数据CRBLABLEC06001A17120701011000000.091
+[INFO] 2017-12-15 13:30:03 cuiyufei ./hdfs.sh CRBLABLEC06001A17120701011000000.091下载完成！
+[INFO] 2017-12-15 13:30:03 cuiyufei ./hdfs.sh get数据CRBLABLEC06001A17120701021000000.091
+[INFO] 2017-12-15 13:30:04 cuiyufei ./hdfs.sh CRBLABLEC06001A17120701021000000.091下载完成！
+[INFO] 2017-12-15 13:30:04 cuiyufei ./hdfs.sh get数据CRBLABLEC06001A17120701031000000.091
+[INFO] 2017-12-15 13:30:04 cuiyufei ./hdfs.sh CRBLABLEC06001A17120701031000000.091下载完成！
+[INFO] 2017-12-15 13:30:04 cuiyufei ./hdfs.sh get数据CRBLABLEC06001A17120702011000000.091
+[INFO] 2017-12-15 13:30:05 cuiyufei ./hdfs.sh CRBLABLEC06001A17120702011000000.091下载完成！
+[INFO] 2017-12-15 13:30:05 cuiyufei ./hdfs.sh get数据CRBLABLEC06001A17120712011000000.091
+[INFO] 2017-12-15 13:30:05 cuiyufei ./hdfs.sh CRBLABLEC06001A17120712011000000.091下载完成！
+[INFO] 2017-12-15 13:30:05 cuiyufei ./hdfs.sh get数据hdfs.sh
+[INFO] 2017-12-15 13:30:06 cuiyufei ./hdfs.sh hdfs.sh下载完成！
+[INFO] 2017-12-15 13:30:06 cuiyufei ./hdfs.sh get数据sftp.sh
+[INFO] 2017-12-15 13:30:06 cuiyufei ./hdfs.sh sftp.sh下载完成！
+[INFO] 2017-12-15 13:30:06 cuiyufei ./hdfs.sh hdfs put C01001MALABELUSR2017110000000.097...
+[INFO] 2017-12-15 13:30:10 cuiyufei ./hdfs.sh hdfs put C01001MALABELUSR2017120000000.097...
+[INFO] 2017-12-15 13:30:14 cuiyufei ./hdfs.sh hdfs put CRBLABLEC06001A17120701...
+[INFO] 2017-12-15 13:30:18 cuiyufei ./hdfs.sh hdfs put CRBLABLEC06001A17120702...
+[INFO] 2017-12-15 13:30:22 cuiyufei ./hdfs.sh hdfs put CRBLABLEC06001A17120712...
+[INFO] 2017-12-15 13:30:26 cuiyufei ./hdfs.sh hdfs put hdfs.sh...
+[INFO] 2017-12-15 13:30:30 cuiyufei ./hdfs.sh hdfs put sftp.sh...
+[INFO] 2017-12-15 13:30:34 cuiyufei ./hdfs.sh 
+*****************************************************************
+*                                                               *
+*               信息化部数据中心数据更新                        *
+*****************************************************************
+		#更新时间:2017年 12月 15日 星期五 13:30:01 CST
+		#数据数量:10
+		#数据大小:44K
+		#用    时:33 s
+		#HDFS目录:/user/cuiyufei/tmp
+		#日志文件:/home/cuiyufei/sftp/log
+**************************数据更新完成！*************************
