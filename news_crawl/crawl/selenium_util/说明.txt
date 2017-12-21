@@ -1,0 +1,10 @@
+1. 你是不是在当前目录下的名有个叫selenium文件或者文件夹，selenium_util不能叫做selenium
+   如果有重命名或删除再试试
+
+2. https://sites.google.com/a/chromium.org/chromedriver/downloads
+    下载chromedriver
+3. 复制到chrome目录.(windows快捷方式，可以打开文件夹)
+    https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
+4. python代码
+    chromedriver = "/Applications/Google Chrome.app/Contents/MacOS/chromedriver"
+    browser = webdriver.Chrome(chromedriver)

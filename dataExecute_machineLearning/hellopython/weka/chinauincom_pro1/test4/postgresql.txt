@@ -1,0 +1,38 @@
+数据分段处理
+UPDATE user_terminal_info set "FLUX_UP" = "length"("FLUX_UP"||'')
+UPDATE user_terminal_info set "FLUX_DOWN" = "length"("FLUX_DOWN"||'')
+UPDATE user_terminal_info set "FLUX_COUNT" = "length"("FLUX_COUNT"||'')
+
+筛选数据
+SELECT "UNI_PREPAY_TAG", "CREDIT_CLASS","FLUX_UP", "FLUX_DOWN", "LAC_COUNT","FLUX_COUNT","USERID","TIME", "BRAND" FROM "test_1"."user_terminal_info", dim_terminal
+ d where "IMEI" = d."TAG_ID"
+
+
+ 小品牌手机处理
+ update "test_1"."user_brand" set "BRAND" = '小品牌' WHERE "BRAND" in (SELECT "BRAND" from little_brand)
+
+
+去掉没有更换手机的,留下更换2，3次的
+DELETE FROM "test_1"."user_brand" where "USERID" not in (SELECT "USERID" from re_times_2_3)
+
+处理时间戳
+SELECT date_part('epoch', to_timestamp('201307'||substr("TIME", 0, 8), 'YYYYMMDDHH24MISS')) from relate_2
+
+设置下一个更换的品牌
+    测试SQL：
+        SELECT t1."USERID",t1."BRAND", t1."TIME",  t2."BRAND",t2."TIME"
+        FROM "test_1"."user_brand" t1,"test_1"."user_brand" t2
+        where t1."USERID" = t2."USERID"
+        and t1."TIME" < t2."TIME"
+        ORDER BY t1."USERID", t1."TIME"
+
+
+导出数据
+    select * from user_brand
+
+
+
+
+
+
+

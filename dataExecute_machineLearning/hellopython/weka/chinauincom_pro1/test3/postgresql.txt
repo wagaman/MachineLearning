@@ -1,0 +1,5 @@
+日期处理
+SELECT date_part('epoch', to_timestamp('201307'||substr("TIME", 0, 8), 'YYYYMMDDHH24MISS')) from relate_2
+
+group by concat
+SELECT "USERID",array_to_string(ARRAY(SELECT unnest(array_agg("BRAND"||'_'||"TIME")) ),',') from relate_3 GROUP BY "USERID"

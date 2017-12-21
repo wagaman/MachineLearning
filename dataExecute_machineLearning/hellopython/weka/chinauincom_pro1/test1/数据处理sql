@@ -1,0 +1,30 @@
+版本1
+
+select USERID, MIN(CREDIT_CLASS),sum(FLUX_UP),sum(FLUX_DOWN),sum(FLUX_COUNT),sum(LAC_COUNT),
+avg(FLUX_UP),avg(FLUX_DOWN),avg(FLUX_COUNT),avg(LAC_COUNT),
+substr(max(TIME), 0, 8),
+ROUND(TO_NUMBER(to_date('201307'||substr(max(TIME), 0, 8),'yyyymmddhh24miss') - to_date('201307'||substr(min(TIME), 0, 8),'yyyymmddhh24miss')) * 12),
+ count(1)
+from USER_TERMINAL_INFO group by USERID 
+HAVING length(substr(max(TIME), 0, 8)) = 8 and substr(min(TIME), 0, 8) > 1 and count(1) > 1
+
+
+版本2
+select USERID, MIN(CREDIT_CLASS),sum(FLUX_UP),sum(FLUX_DOWN),sum(FLUX_COUNT),sum(LAC_COUNT),
+avg(FLUX_UP),avg(FLUX_DOWN),avg(FLUX_COUNT),avg(LAC_COUNT),
+substr(max(TIME), 0, 8),
+ROUND((MIN(CREDIT_CLASS)+ 1.2* avg(FLUX_UP)/10000+ 2.1*avg(FLUX_DOWN)/10000+ 3.5*sum(FLUX_COUNT)))
+from USER_TERMINAL_INFO group by USERID
+HAVING length(substr(max(TIME), 0, 8)) = 8 and substr(min(TIME), 0, 8) > 1 and count(1) > 1
+and (MIN(CREDIT_CLASS)+ 1.2* avg(FLUX_UP)/10000+ 2.1*avg(FLUX_DOWN)/10000+ 3.5*sum(FLUX_COUNT)) < 365
+
+
+
+版本2
+select USERID, MIN(CREDIT_CLASS),sum(FLUX_UP),sum(FLUX_DOWN),sum(FLUX_COUNT),sum(LAC_COUNT),
+avg(FLUX_UP),avg(FLUX_DOWN),avg(FLUX_COUNT),avg(LAC_COUNT),
+substr(max(TIME), 0, 8),
+ROUND((MIN(CREDIT_CLASS)+ 1.2* avg(FLUX_UP)/10000+ 2.1*avg(FLUX_DOWN)/10000+ 3.5*sum(FLUX_COUNT)))
+from USER_TERMINAL_INFO group by USERID
+HAVING length(substr(max(TIME), 0, 8)) = 8 and substr(min(TIME), 0, 8) > 1 and count(1) > 1
+and (MIN(CREDIT_CLASS)+ 1.2* avg(FLUX_UP)/10000+ 2.1*avg(FLUX_DOWN)/10000+ 3.5*sum(FLUX_COUNT)) < 365
