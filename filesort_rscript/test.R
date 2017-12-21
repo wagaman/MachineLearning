@@ -1,0 +1,7 @@
+﻿Sys.setenv(HADOOP_CMD="/opt/cloudera/parcels/CDH/bin/hadoop")
+Sys.setenv(HADOOP_STREAMING="/opt/cloudera/parcels/CDH/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming.jar")
+library(rhdfs)
+hdfs.init()
+library(rmr2)
+small.ints = to.dfs(1:10)
+mapreduce(input = small.ints, map = function(k, v) cbind(v, v^2))
